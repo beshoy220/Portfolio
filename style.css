@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* color: black; */
+    height: 100vh; /* Sets the body height to 100% of the viewport height */
+    background-image: url('assets/bg.jjpg.jpg'); /* Replace with your image path */
+    background-size: cover; /* Scales the image to cover the entire area without cropping */
+    background-position: center center; /* Centers the image */
+     /* Adjust grayscale and brightness as needed */
+  }
+  
+  .container {
+    text-align: center;
+    color: white;
+    padding: 100px;
+  }
+  
+  .social-links {
+  display: flex;
+  justify-content: center; /* Centers the icons horizontally */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-links li {
+  margin: 0 10px; /* Adjust spacing between icons */
+}
+
+.social-links img {
+  width: 32px; /* Adjust icon size */
+  height: 32px;
+}
